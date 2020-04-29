@@ -65,7 +65,7 @@ index.html **页面代码**
     );
       
      
-	// 点击分享页面，唤醒对应 app  其中 toDetail 为 app 代码协定好的方法
+    // 点击分享页面，唤醒对应 app  其中 toDetail 为 app 代码协定好的方法
     // iOS 调用的格式是固定的，只需要知道 toDetail 方法即可
     // Android 中需要自定义 jkslw -> toDetail 方法路径
     if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
